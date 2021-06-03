@@ -6,15 +6,18 @@
   <modelVersion>4.0.0</modelVersion>
   <name>ball</name>
   <artifactId>javadoc</artifactId>
-  <version>20210527-SNAPSHOT</version>
+  <version>20210602.0</version>
   <packaging>pom</packaging>
   <parent>
     <groupId>ball</groupId>
     <artifactId>parent</artifactId>
-    <version>20210419-SNAPSHOT</version>
+    <version>20210602.0</version>
     <relativePath/>
   </parent>
   <url>https://allen-ball.github.io/javadoc/</url>
+  <organization>
+    <name><![CDATA[<a href="mailto:ball@hcf.dev">Allen D. Ball</a>]]></name>
+  </organization>
   <profiles>
     <profile>
       <id>jdk8-and-earlier</id>
@@ -32,7 +35,7 @@
       <id>jdk9-and-later</id>
       <activation><jdk>[9,)</jdk></activation>
       <properties>
-        <ball-api.version>20210415.0</ball-api.version>
+        <ball-api.version>20210602.0</ball-api.version>
       </properties>
       <modules>
         <module>forvm</module>
@@ -43,7 +46,8 @@
     </profile>
   </profiles>
   <properties>
-    <maven.javadoc.skip>false</maven.javadoc.skip>
+    <maven.install.skip>true</maven.install.skip>
+    <maven.deploy.skip>true</maven.deploy.skip>
     <ball-api.version>${ball-parent.version}</ball-api.version>
 
     <javadoc-offline-locations>${settings.localRepository}/javadoc-offline-locations</javadoc-offline-locations>
@@ -312,6 +316,8 @@
           </executions>
           <configuration>
             <fromDir>${project.reporting.outputDirectory}/apidocs/${project.artifactId}</fromDir>
+            <url>file:${project.basedir}/../docs</url>
+            <toDir>${project.artifactId}</toDir>
           </configuration>
         </plugin>
       </plugins>
