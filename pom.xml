@@ -5,6 +5,7 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <name>ball</name>
+  <groupId>ball</groupId>
   <artifactId>javadoc</artifactId>
   <version>20210602.0</version>
   <packaging>pom</packaging>
@@ -38,7 +39,6 @@
         <ball-api.version>20210602.0</ball-api.version>
       </properties>
       <modules>
-        <module>forvm</module>
         <module>tv</module>
         <module>upnp-media-server</module>
         <module>ball-tools-javadoc</module>
@@ -289,6 +289,10 @@
                 <url>https://www.thymeleaf.org/apidocs/thymeleaf-spring5/${thymeleaf.version}/</url>
                 <location>${javadoc-offline-locations}/thymeleaf-spring5-javadoc-jar/</location>
               </offlineLink>
+              <offlineLink>
+                <url>${javadoc.io}org.thymeleaf.extras/thymeleaf-extras-java8time/latest/</url>
+                <location>${javadoc-offline-locations}/thymeleaf-extras-java8time-javadoc-jar/</location>
+              </offlineLink>
               <!-- webjars-locator-core -->
               <offlineLink>
                 <url>${javadoc.io}org.webjars/webjars-locator-core/latest/</url>
@@ -300,6 +304,7 @@
             <show>protected</show>
           </configuration>
         </plugin>
+<!--
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>wagon-maven-plugin</artifactId>
@@ -320,6 +325,7 @@
             <toDir>${project.artifactId}</toDir>
           </configuration>
         </plugin>
+ -->
       </plugins>
     </pluginManagement>
     <plugins>
@@ -335,10 +341,12 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
       </plugin>
+<!--
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>wagon-maven-plugin</artifactId>
       </plugin>
+ -->
     </plugins>
   </build>
 </project>
