@@ -7,12 +7,12 @@
   <name>ball</name>
   <groupId>ball</groupId>
   <artifactId>javadoc</artifactId>
-  <version>20210602.0</version>
+  <version>20210611.0</version>
   <packaging>pom</packaging>
   <parent>
     <groupId>ball</groupId>
     <artifactId>parent</artifactId>
-    <version>20210602.0</version>
+    <version>20210611.0</version>
     <relativePath/>
   </parent>
   <url>https://allen-ball.github.io/javadoc/</url>
@@ -36,7 +36,7 @@
       <id>jdk9-and-later</id>
       <activation><jdk>[9,)</jdk></activation>
       <properties>
-        <ball-api.version>20210602.0</ball-api.version>
+        <ball-api.version>20210611.0</ball-api.version>
       </properties>
       <modules>
         <module>tv</module>
@@ -304,7 +304,6 @@
             <show>protected</show>
           </configuration>
         </plugin>
-<!--
         <plugin>
           <groupId>org.codehaus.mojo</groupId>
           <artifactId>wagon-maven-plugin</artifactId>
@@ -325,7 +324,6 @@
             <toDir>${project.artifactId}</toDir>
           </configuration>
         </plugin>
- -->
       </plugins>
     </pluginManagement>
     <plugins>
@@ -341,12 +339,10 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
       </plugin>
-<!--
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>wagon-maven-plugin</artifactId>
       </plugin>
- -->
     </plugins>
   </build>
 </project>
