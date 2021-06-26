@@ -1,1 +1,1 @@
-typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"tv","l":"EnableSchedulingConfiguration"},{"p":"tv","l":"EPGComponent"},{"p":"tv","l":"EPGConfiguration"},{"p":"tv","l":"HDHRTunerComponent"},{"p":"tv","l":"HDHRTunerConfiguration"},{"p":"tv","l":"Launcher"},{"p":"tv","l":"UIController"}]
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"tv","l":"EPGComponent"},{"p":"tv","l":"EPGConfiguration"},{"p":"tv","l":"HDHRTunerComponent"},{"p":"tv","l":"HDHRTunerConfiguration"},{"p":"tv","l":"Launcher"},{"p":"tv","l":"UIController"}]
