@@ -11,7 +11,7 @@
   <parent>
     <groupId>ball</groupId>
     <artifactId>parent</artifactId>
-    <version>20210625.0</version>
+    <version>20210722.0</version>
     <relativePath/>
   </parent>
   <url>https://allen-ball.github.io/javadoc/</url>
@@ -26,7 +26,7 @@
         <module>ball-api</module>
         <module>ball-license-maven-plugin</module>
         <module>ball-wagon-providers</module>
-        <module>ball-riddler538</module>
+        <!-- <module>ball-riddler538</module> -->
         <module>ball-tools-javadoc-jdk8</module>
       </modules>
     </profile>
@@ -34,7 +34,7 @@
       <id>jdk9-and-later</id>
       <activation><jdk>[9,)</jdk></activation>
       <properties>
-        <ball-api.version>20210622.0</ball-api.version>
+        <ball-api.version>20210722.0</ball-api.version>
       </properties>
       <modules>
         <module>tv</module>
