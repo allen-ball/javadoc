@@ -26,7 +26,6 @@
         <module>ball-api</module>
         <module>ball-javadoc-maven-plugin</module>
         <module>ball-license-maven-plugin</module>
-        <module>ball-wagon-providers</module>
         <!-- <module>ball-riddler538</module> -->
         <module>ball-tools-javadoc-jdk8</module>
       </modules>
