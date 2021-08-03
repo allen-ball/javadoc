@@ -37,6 +37,7 @@
         <ball-api.version>20210722.0</ball-api.version>
       </properties>
       <modules>
+        <module>ball-game</module>
         <module>tv</module>
         <module>upnp-media-server</module>
         <module>ball-tools-javadoc</module>
