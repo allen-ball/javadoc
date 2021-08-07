@@ -170,8 +170,9 @@
             <offlinelinks>
               <offlinelink>
                 <artifact>
-                  com.vladsch.flexmark:*
-                  org.apache.httpcomponents:*
+                  com.vladsch.flexmark
+                  org.apache.ant:ant
+                  org.apache.httpcomponents
                   org.apache.maven.shared
                   org.eclipse.aether:aether-api
                   org.spdx:spdx-tools
@@ -188,10 +189,6 @@
                   com.fasterxml.jackson.module:*
                 </artifact>
                 <url>https://javadoc.io/doc/{g}/{a}/{v}/</url>
-              </offlinelink>
-              <offlinelink>
-                <artifact>org.apache.ant:*</artifact>
-                <url>https://ant.apache.org/manual/api/</url>
               </offlinelink>
               <offlinelink>
                 <artifact>org.codehaus.groovy:*</artifact>
