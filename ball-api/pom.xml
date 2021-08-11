@@ -46,23 +46,11 @@
     </dependency>
     <dependency>
       <groupId>ball</groupId>
-      <artifactId>ball-tv</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>ball</groupId>
       <artifactId>ball-upnp</artifactId>
     </dependency>
     <dependency>
       <groupId>ball</groupId>
       <artifactId>ball-util</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>ball</groupId>
-      <artifactId>silicondust</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>ball</groupId>
-      <artifactId>videolan-libdvdnav</artifactId>
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
@@ -152,14 +140,6 @@
             <group>
               <title>ball-util.jar</title>
               <packages>ball.*</packages>
-            </group>
-            <group>
-              <title>silicondust.jar</title>
-              <packages>silicondust:silicondust.*</packages>
-            </group>
-            <group>
-              <title>videolan-libdvdnav.jar</title>
-              <packages>videolan:videolan.*</packages>
             </group>
           </groups>
         </configuration>

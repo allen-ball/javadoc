@@ -38,6 +38,7 @@
       </properties>
       <modules>
         <module>ball-game</module>
+        <module>ball-tv</module>
         <module>tv</module>
         <module>upnp-media-server</module>
         <module>ball-tools-javadoc</module>
