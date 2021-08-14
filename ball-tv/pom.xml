@@ -15,6 +15,9 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
   <properties>
+    <ball-tv.version>3.0.0-SNAPSHOT</ball-tv.version>
+    <silicondust.version>2.0.0-SNAPSHOT</silicondust.version>
+    <videolan-libdvdnav.version>2.0.0-SNAPSHOT</videolan-libdvdnav.version>
     <javadoc.artifact>${project.artifactId}</javadoc.artifact>
     <javadoc.version>${ball-tv.version}</javadoc.version>
     <maven.compiler.source>11</maven.compiler.source>
@@ -22,16 +25,18 @@
   <dependencies verbose="true">
     <dependency>
       <groupId>ball</groupId>
-      <artifactId>${javadoc.artifact}</artifactId>
-      <version>${javadoc.version}</version>
+      <artifactId>ball-tv</artifactId>
+      <version>${ball-tv.version}</version>
     </dependency>
     <dependency>
       <groupId>ball</groupId>
       <artifactId>silicondust</artifactId>
+      <version>${silicondust.version}</version>
     </dependency>
     <dependency>
       <groupId>ball</groupId>
       <artifactId>videolan-libdvdnav</artifactId>
+      <version>${videolan-libdvdnav.version}</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.boot</groupId>
