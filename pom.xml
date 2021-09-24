@@ -11,7 +11,7 @@
   <parent>
     <groupId>ball</groupId>
     <artifactId>parent</artifactId>
-    <version>20210820.0</version>
+    <version>20210923.0</version>
     <relativePath/>
   </parent>
   <url>https://allen-ball.github.io/javadoc/</url>
@@ -34,7 +34,7 @@
       <id>jdk9-and-later</id>
       <activation><jdk>[9,)</jdk></activation>
       <properties>
-        <ball-api.version>20210820.0</ball-api.version>
+        <ball-api.version>20210923.0</ball-api.version>
       </properties>
       <modules>
         <module>ball-game</module>
