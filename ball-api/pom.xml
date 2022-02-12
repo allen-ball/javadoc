@@ -11,7 +11,7 @@
   <parent>
     <groupId>ball</groupId>
     <artifactId>javadoc</artifactId>
-    <version>20210923.0</version>
+    <version>2022.0.0</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
   <properties>
@@ -27,10 +27,6 @@
     <dependency>
       <groupId>ball</groupId>
       <artifactId>ball-http</artifactId>
-    </dependency>
-    <dependency>
-      <groupId>ball</groupId>
-      <artifactId>ball-persistence</artifactId>
     </dependency>
     <dependency>
       <groupId>ball</groupId>
