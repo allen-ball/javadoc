@@ -118,10 +118,6 @@
               <packages>ball.mail:ball.mail.*</packages>
             </group>
             <group>
-              <title>ball-persistence.jar</title>
-              <packages>ball.persistence:ball.persistence.*</packages>
-            </group>
-            <group>
               <title>ball-spring.jar</title>
               <packages>ball.spring:ball.spring.*</packages>
             </group>
