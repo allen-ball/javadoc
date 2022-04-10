@@ -31,7 +31,7 @@
       <id>jdk9-and-later</id>
       <activation><jdk>[9,)</jdk></activation>
       <properties>
-        <ball-api.version>20210923.0</ball-api.version>
+        <ball-api.version>2022.0.1</ball-api.version>
       </properties>
       <modules>
         <module>ball-game</module>
