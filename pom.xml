@@ -11,7 +11,7 @@
   <parent>
     <groupId>ball</groupId>
     <artifactId>parent</artifactId>
-    <version>2022.0.1</version>
+    <version>2022.1.0</version>
     <relativePath/>
   </parent>
   <url>https://allen-ball.github.io/javadoc/</url>
@@ -47,7 +47,7 @@
     <maven.deploy.skip>true</maven.deploy.skip>
     <ball-api.version>${ball-parent.version}</ball-api.version>
   </properties>
-  <dependencies>
+  <dependencies combine.children="append">
     <dependency>
       <groupId>javax.inject</groupId>
       <artifactId>javax.inject</artifactId>
